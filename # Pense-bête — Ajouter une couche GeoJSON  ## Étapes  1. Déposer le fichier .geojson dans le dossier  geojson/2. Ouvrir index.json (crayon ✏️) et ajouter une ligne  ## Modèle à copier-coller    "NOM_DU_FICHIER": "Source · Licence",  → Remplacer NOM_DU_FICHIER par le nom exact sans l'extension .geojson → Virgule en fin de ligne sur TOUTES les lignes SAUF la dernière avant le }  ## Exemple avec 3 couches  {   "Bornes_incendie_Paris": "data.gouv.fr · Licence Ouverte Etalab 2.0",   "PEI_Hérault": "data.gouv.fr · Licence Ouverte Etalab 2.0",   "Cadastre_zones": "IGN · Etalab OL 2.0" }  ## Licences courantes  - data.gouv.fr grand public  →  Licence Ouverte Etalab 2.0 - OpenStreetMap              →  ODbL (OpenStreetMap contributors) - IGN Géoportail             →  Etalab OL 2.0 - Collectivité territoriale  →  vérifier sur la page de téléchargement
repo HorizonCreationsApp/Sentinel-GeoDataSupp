@@ -1,0 +1,28 @@
+# Pense-bête — Ajouter une couche GeoJSON
+
+## Étapes
+
+1. Déposer le fichier .geojson dans le dossier  geojson/
+2. Ouvrir index.json (crayon ✏️) et ajouter une ligne
+
+## Modèle à copier-coller
+
+  "NOM_DU_FICHIER": "Source · Licence",
+
+→ Remplacer NOM_DU_FICHIER par le nom exact sans l'extension .geojson
+→ Virgule en fin de ligne sur TOUTES les lignes SAUF la dernière avant le }
+
+## Exemple avec 3 couches
+
+{
+  "Bornes_incendie_Paris": "data.gouv.fr · Licence Ouverte Etalab 2.0",
+  "PEI_Hérault": "data.gouv.fr · Licence Ouverte Etalab 2.0",
+  "Cadastre_zones": "IGN · Etalab OL 2.0"
+}
+
+## Licences courantes
+
+- data.gouv.fr grand public  →  Licence Ouverte Etalab 2.0
+- OpenStreetMap              →  ODbL (OpenStreetMap contributors)
+- IGN Géoportail             →  Etalab OL 2.0
+- Collectivité territoriale  →  vérifier sur la page de téléchargement
